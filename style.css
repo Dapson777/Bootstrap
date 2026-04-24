@@ -7,9 +7,37 @@
 
 .logo{
     color: #1E0E62;
-    font-weight:bold ;
+    font-weight: bold;
 }
 
 .link{
     color: #15143966;
+}
+
+.hero h1{
+    color: #1E0E62;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+p{
+    width: 37%;
+    color: #15143966;
+}
+
+@media(max-width:768px){
+    body{
+        overflow-x: none;
+    }
+
+    .hero h1{
+        font-size: 50px;
+        width: auto;
+        margin: auto;
+
+    }
+
+    p{
+        width: 90%;
+    }
 }

@@ -13,41 +13,69 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg pt-4">
       <div class="container">
         <a class="navbar-brand logo" href="#">Startup 3</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav gap-sm-2 gap-4">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link link" href="#">Features</a>
-            <a class="nav-link link" href="#">Blog</a>
-            <a class="nav-link link" href="#">Shop</a>
-            <div class="d-md-none d-lg-blockd-grid gap-2 d-md-block">
-              <button class="btn btn-primary" type="button">Button</button>
-              <button class="btn btn-primary" type="button">Button</button>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto d-flex gap-3 link">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <button class="btn btn-link text-secondary text-decoration-none">
+              Sign In
+            </button>
+            <button
+              class="btn text-white border-0 rounded-pill"
+              style="background: #25dac5"
+            >
+              Sign Up
+            </button>
           </div>
-        </div>
-        <div class=""d-md-none d-lg-block d-grid gap-2 d-md-block">
-          <button class="btn btn-primary" type="button">Button</button>
-          <button class="btn btn-primary" type="button">Button</button>
         </div>
       </div>
     </nav>
+
+    <!-- End of NAV section -->
+
+    <!-- Hero Section -->
+
+    <section class="hero py-5 mt-5 text-center">
+      <div class="container">
+        <h1 class="display-4 mb-3">Startup Framework</h1>
+        <p class="mx-auto">
+          We made it so beautiful and simple. It combines landings, pages, blogs
+          and shop screens. It is definitely the tool you need in your
+          collection!
+        </p>
+      </div>
+
+      <div class="d-flex flex-column align-items-center gap-3 mt-5">
+        <button class="btn px-5 py-3 rounded-pill text-white" style="background: #25DAC5;">Purchase Now for $248</button>
+        <button class="btn btn-link text-decoration-none fw-medium" style="color: #25DAC5;">Learn More</button>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
